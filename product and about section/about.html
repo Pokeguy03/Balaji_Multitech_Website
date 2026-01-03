@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Balaji Multitech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Balaji Multitech</div>
+
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#request form">Request Form</a></li>
+            <li><button class="call-btn-mobile" onclick="window.location.href='tel:+919384250035'">Call Now</button></li>
+        </ul>
+
+        <button class="call-btn" onclick="window.location.href='tel:+919384250035'">📞 Call Now</button>
+    </nav>
+
+    <header class="about-black-header">
+        <h1>About Balaji Multitech</h1>
+        <p>Reliable Home Services & Quality Products</p>
+    </header>
+
+    <div class="abt-container">
+        <div class="abt-stats-grid">
+            <div class="abt-stat-card"><span class="abt-icon">🏅</span><h4>10+ Years</h4><p>Experience</p></div>
+            <div class="abt-stat-card"><span class="abt-icon">🛡️</span><h4>Certified</h4><p>Professionals</p></div>
+            <div class="abt-stat-card"><span class="abt-icon">⚡</span><h4>Fast Response</h4><p>Service</p></div>
+            <div class="abt-stat-card"><span class="abt-icon">😊</span><h4>12K+ Happy</h4><p>Customers</p></div>
+        </div>
+
+        <section class="abt-intro-para">
+            <h3 class="green-text">We Don't Just Sell Products — We Deliver Solutions That Work Every Day</h3>
+            <p>At Balaji Multitech, we don't just sell products — we deliver solutions that work every day. From clean drinking water and uninterrupted power to smart security and reliable machines, we help homes and businesses run smoothly without interruptions.</p>
+            <p>What sets us apart is our hands-on approach. We listen first, understand the real requirement, and then recommend the right solution. Every technician on our team is highly trained for professional and long-lasting results.</p>
+        </section>
+
+        <div class="abt-mission-flex">
+            <div class="abt-mission-text">
+                <h2 class="green-text">Our Mission</h2>
+                <p>To provide reliable, high-quality home services that make life easier for our customers. We strive to build lasting relationships through trust, transparency, and exceptional service.</p>
+            </div>
+            <div class="abt-mission-img">
+                <img src="my_team.png" alt="Team Work">
+            </div>
+        </div>
+
+        <div class="abt-why-grid">
+            <div class="abt-why-card abt-green"><span class="abt-emoji">🎯</span><h3>Quality</h3><p>Genuine Products Only</p></div>
+            <div class="abt-why-card abt-orange"><span class="abt-emoji">💰</span><h3>Pricing</h3><p>Transparent Costs</p></div>
+            <div class="abt-why-card abt-blue"><span class="abt-emoji">🚀</span><h3>Quick</h3><p>Efficient Delivery</p></div>
+        </div>
+    </div>
+
+    <footer id="contact" class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-logo">Balaji <span class="green-text">Multitech</span></h3>
+                <p>Professional home services at your doorstep. We deliver solutions that work every day, from clean water to smart security.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="index.html#products">Our Products</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Details</h4>
+                <p><strong>Akash S</strong></p>
+                <p>📞 <a href="tel:+919384250035">+91 93842 50035</a></p>
+                <p>📍 Chennai, Tamil Nadu</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Balaji Multitech Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menu = document.querySelector('#mobile-menu');
+        const menuLinks = document.querySelector('.nav-links');
+
+        menu.addEventListener('click', function() {
+            menu.classList.toggle('is-active');
+            menuLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
